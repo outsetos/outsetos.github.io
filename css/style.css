@@ -1,10 +1,18 @@
 body{
-    background-color: #2F85EA;
+    background-color: #FFFFFF;
 }
 
 nav{
     font-family: Roboto 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.8rem;
+}
+
+h2{
+   font-weight: bold;
+}
+
+.texto-quemsomos{
+    font-size: 1.3rem;
 }
