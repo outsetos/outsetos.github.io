@@ -1,0 +1,24 @@
+body{
+    font-family: Roboto 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+nav{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+h2{
+   font-weight: bold;
+}
+
+.texto-quemsomos{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.duvidas-titulo{
+    background-color: #1b38bb;
+    font-size: 5rem;
+}

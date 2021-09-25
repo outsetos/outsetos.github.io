@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Porque você os insetos out e não in da sua casa!"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Daniel Aguiar, Igor Silva" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Orçamento</title>
+  </head>
+  <body>
+    <nav class="navbar justify-content-center bg-primary">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" width="48%" height="100%" alt="" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Área de atuação</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-primary bg-light" href="#"
+            >Orçamento</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="quem-somos.html">Quem Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="/duvidas.html">Dúvidas</a>
+        </li>
+      </ul>
+    </nav>
+
+    <img class="img-fluid" src="images/atendente.jpeg" alt="" />
+
+    <div class="container">
+      <div class="row">
+        <div class="col mt-5 text-center text-primary">
+          <iframe
+            src="https://maps.google.com/maps?q=brasilia&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+          ></iframe>
+          <div class="mt-5">
+            <h3>Rua dos bobos, Nº 0</h3>
+            <h3>Brasília - DF</h3>
+            <h3>Atendimento 24 Horas</h3>
+            <h3>(61) 9999999999</h3>
+            <h3>(61) 9999999999</h3>
+          </div>
+        </div>
+
+        <div class="col mt-5 text-primary">
+          <h3 class="text-center">
+            Convidamos você a se tornar mais um cliente satisfeito.
+          </h3>
+          <form>
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nome"
+                aria-describedby="nomeContato"
+                placeholder="Nome Sobrenome"
+                required
+              />
+              <small id="nomeContato" class="form-text text-muted"
+                >Informe como gostaria de ser chamado</small
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="email">Endereço de email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailContato"
+                placeholder="seuemail@host.com"
+                required
+              />
+              <small id="emailContato" class="form-text text-muted"
+                >Não vamos compartilhar seu email e não enviaremos spam.</small
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="celular">Celular de contato</label>
+              <input
+                type="tel"
+                id="celular"
+                class="form-control"
+                name="celular"
+                aria-describedby="celularContato"
+                placeholder="99-999999999"
+                pattern="[0-9]{2}-[0-9]{9}"
+                required
+              />
+              <small id="celularContato" class="form-text text-muted"
+                >Digite seu celular no formato 99-9999999999</small
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem"
+                >Descreva-nos o tipo de dedetização de deseja</label
+              >
+              <textarea
+                name="mensagem"
+                class="form-control"
+                id="mensagem"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-lg btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/footer.js"></script>
+    <footer-component></footer-component>
+  </body>
+</html>
