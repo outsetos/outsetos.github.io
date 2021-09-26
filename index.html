@@ -1,23 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Porque você os insetos out e não in da sua casa!">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Daniel Aguiar, Igor Silva">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cc.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
-        <div class="card-body">
-          <h5 class="card-title">Título do card</h5>
-          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-          <a href="#" class="btn btn-primary">Visitar</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Porque você os insetos out e não in da sua casa!"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Daniel Aguiar, Igor Silva" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/bootstrap.js"></script>
+
+    <title>OutSetos Dedetizadora</title>
+  </head>
+  <body>
+    <nav class="navbar justify-content-center bg-primary">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" width="48%" height="100%" alt="Logo escrita Outsetos" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-primary bg-light" href="index.html"
+            >Inicio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="area-de-atuacao.html"
+            >Área de atuação</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="orcamento.html">Orçamento</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="quem-somos.html">Quem Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="duvidas.html">Dúvidas</a>
+        </li>
+      </ul>
+    </nav>
+
+    <img
+      class="img-fluid container-fluid"
+      style="padding: 0px"
+      src="images/homebg.jpeg"
+      alt="Imagem homens realizando dedetização e com texto escrito dedetização e controle de pragas"
+    />
+
+    <div class="container-fluid backgroundSlogan">
+
+      <div class="row">
+        <div class="col">
+          <div class="texto-home text-white text-center ">
+            Porque você quer os insetos <b>out</b> <br />
+            e não <b>in</b> da sua casa!
+          </div>
         </div>
       </div>
-</body>
+      
+      <div class="row m-3">
+        <div class="col text-center" style="padding-bottom: 50px;">
+          <a href="area-de-atuacao.html">
+            <button  class="btn btn-lg" style="color: #182777;">Saiba Mais</button>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col mt-5 text-center texto-controle-de-pragas">
+          Controle de pragas no Distrito Federal
+        </div>
+      </div>
+      <div class="row  mt-5">
+
+        <div class="col">
+          <!-- baratas -->
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/barata.jpeg" alt="Imagem de uma barata">
+            <div class="card-body">
+              <p class="card-text">Os cupins são insetos pertencentes a ordem Isoptera (iso= igual; ptera=asas), conhecidos também como térmitas, siriris ou aleluias.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <!-- cupins -->
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="/images/cupim.png" alt="Imagem de um cupim">
+            <div class="card-body">
+              <p class="card-text">Os cupins são insetos pertencentes a ordem Isoptera (iso= igual; ptera=asas), conhecidos também como térmitas, siriris ou aleluias.</p>
+            </div>
+          </div>
+        </div>
+  
+  
+        <div class="col">
+          <!-- mosquitos -->
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/mosquito.jpeg" alt="Imagem de um mosquito">
+            <div class="card-body">
+              <p class="card-text">Insetos dípteros, de pequeno tamanho, esp. os hematófagos da fam. dos culicídeos, ger. vetores de conhecidas doenças do homem.</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+
+    <script src="js/footer.js"></script>
+    <footer-component></footer-component>
+  </body>
 </html>
