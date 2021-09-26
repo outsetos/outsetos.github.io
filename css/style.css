@@ -81,3 +81,16 @@ h2{
 	left: 979px;
 	top: 1352px;
 }
+
+
+.iconSize{
+	font-size: 3rem;
+}
+
+
+@media (max-width: 797px) {
+    body { 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
