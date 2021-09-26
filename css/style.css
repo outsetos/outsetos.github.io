@@ -17,3 +17,67 @@ h2{
     font-size: 1.2rem;
 }
 
+.texto-conheca-nossos-segmentos{
+	
+	font-size: 48px;
+	color: #182777;
+	line-height: 56px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.texto-outsetos-dedetizadora{
+	
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #000000;
+}
+
+.ellipse-1 {
+	
+	width: 100px;
+	height: 100px;
+	left: 367px;
+	top: 1144px;
+}
+
+.ellipse-2 {
+	
+	width: 100px;
+	height: 100px;
+	left: 670px;
+	top: 1144px;
+}
+
+.ellipse-3 {
+	
+	width: 100px;
+	height: 100px;
+	left: 979px;
+	top: 1144px;
+}
+
+.ellipse-4 {
+	
+	width: 100px;
+	height: 100px;
+	left: 367px;
+	top: 1352px;
+}
+
+.ellipse-5 {
+	
+	width: 100px;
+	height: 100px;
+	left: 672px;
+	top: 1352px;
+}
+
+.ellipse-6 {
+	
+	width: 100px;
+	height: 100px;
+	left: 979px;
+	top: 1352px;
+}
