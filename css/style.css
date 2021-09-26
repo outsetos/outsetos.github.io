@@ -53,27 +53,21 @@ h2{
 }
 
 .texto-home {
-	width: 1086px;
-	height: 168px;
-	left: 160px;
-	top: 320px;
-	font-size: 72px;
-	font-weight: normal;
-	line-height: 84px;
-	text-align: center;
-	color: #FFFFFF;
+	font-size: 3rem;
 }
 
 .texto-controle-de-pragas{
-	font-family: Roboto;
-	font-style: normal;
+	font-size: 3rem;
 	font-weight: bold;
-	font-size: 48px;
-	line-height: 56px;
-	text-align: center;
-
 	color: #182777;
 }
+
+.backgroundSlogan{
+	background-color: #2F85EA;
+	padding-top: 50px;
+}
+
+
 
 .rectangle-1 {
 	width: 200px;
