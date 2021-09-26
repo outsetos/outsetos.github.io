@@ -1,9 +1,9 @@
 body{
+    font-family: Roboto 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #FFFFFF;
 }
 
 nav{
-    font-family: Roboto 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 1.8rem;
@@ -15,7 +15,9 @@ h2{
 
 .texto-quemsomos{
     font-size: 1.2rem;
+    font-weight: bold;
 }
+
 
 .texto-conheca-nossos-segmentos{
 	
@@ -34,55 +36,6 @@ h2{
 	color: #000000;
 }
 
-.ellipse-1 {
-	
-	width: 100px;
-	height: 100px;
-	left: 367px;
-	top: 1144px;
-}
-
-.ellipse-2 {
-	
-	width: 100px;
-	height: 100px;
-	left: 670px;
-	top: 1144px;
-}
-
-.ellipse-3 {
-	
-	width: 100px;
-	height: 100px;
-	left: 979px;
-	top: 1144px;
-}
-
-.ellipse-4 {
-	
-	width: 100px;
-	height: 100px;
-	left: 367px;
-	top: 1352px;
-}
-
-.ellipse-5 {
-	
-	width: 100px;
-	height: 100px;
-	left: 672px;
-	top: 1352px;
-}
-
-.ellipse-6 {
-	
-	width: 100px;
-	height: 100px;
-	left: 979px;
-	top: 1352px;
-}
-
-
 .iconSize{
 	font-size: 3rem;
 }
@@ -93,4 +46,8 @@ h2{
         padding-left: 0px;
         padding-right: 0px;
     }
+}
+.duvidas-titulo{
+    background-color: #1b38bb;
+    font-size: 5rem;
 }
