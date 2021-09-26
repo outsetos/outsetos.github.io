@@ -51,3 +51,56 @@ h2{
     background-color: #1b38bb;
     font-size: 5rem;
 }
+
+.texto-home {
+	width: 1086px;
+	height: 168px;
+	left: 160px;
+	top: 320px;
+	font-size: 72px;
+	font-weight: normal;
+	line-height: 84px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.texto-controle-de-pragas{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+
+	color: #182777;
+}
+
+.rectangle-1 {
+	width: 200px;
+	height: 200px;
+	left: 103px;
+	top: 1010px;
+
+	background-image: url("barata.jpg");
+	border-radius: 92px;
+}
+
+.rectangle-2 {
+	width: 200px;
+	height: 200px;
+	left: 548px;
+	top: 1010px;
+
+	background-image: url("cupim.jpg");
+	border-radius: 92px;
+}
+
+.rectangle-3 {
+	width: 200px;
+	height: 200px;
+	left: 993px;
+	top: 1010px;
+
+	background-image: url("mosquito.jpg");
+	border-radius: 92px;
+}
