@@ -1,0 +1,87 @@
+<title>Orçamento</title>
+    <img class="img-fluid container-fluid" style="padding: 0px;" src="images/atendente.jpeg" alt="Imagem de atendente de callcenter utilizando roupa azul" />
+
+    <div class="container">
+      <div class="row">
+        <div class="col mt-5 text-center text-primary">
+          <iframe
+            src="https://maps.google.com/maps?q=brasilia&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+          ></iframe>
+          <div class="mt-5">
+            <h3>Rua dos bobos, Nº 0</h3>
+            <h3>Brasília - DF</h3>
+            <h3>Atendimento 24 Horas</h3>
+            <h3>(61) 9999999999</h3>
+            <h3>(61) 9999999999</h3>
+          </div>
+        </div>
+
+        <div class="col mt-5 text-primary">
+          <h3 class="text-center">
+            Convidamos você a se tornar mais um cliente satisfeito.
+          </h3>
+          <form>
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nome"
+                aria-describedby="nomeContato"
+                placeholder="Nome Sobrenome"
+                required
+              />
+              <small id="nomeContato" class="form-text text-muted"
+                >Informe como gostaria de ser chamado</small
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="email">Endereço de email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailContato"
+                placeholder="seuemail@host.com"
+                required
+              />
+              <small id="emailContato" class="form-text text-muted"
+                >Não vamos compartilhar seu email e não enviaremos spam.</small
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="celular">Celular de contato</label>
+              <input
+                type="tel"
+                id="celular"
+                class="form-control"
+                name="celular"
+                aria-describedby="celularContato"
+                placeholder="99-999999999"
+                pattern="[0-9]{2}-[0-9]{9}"
+                required
+              />
+              <small id="celularContato" class="form-text text-muted"
+                >Digite seu celular no formato 99-9999999999</small
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem"
+                >Descreva-nos o tipo de dedetização de deseja</label
+              >
+              <textarea
+                name="mensagem"
+                class="form-control"
+                id="mensagem"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-lg btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>

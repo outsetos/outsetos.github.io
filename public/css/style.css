@@ -1,0 +1,100 @@
+body{
+    font-family: Roboto 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+nav{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+h2{
+   font-weight: bold;
+}
+
+.texto-quemsomos{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.texto-conheca-nossos-segmentos{
+	
+	font-size: 48px;
+	color: #182777;
+	line-height: 56px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.texto-outsetos-dedetizadora{
+	
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #000000;
+}
+
+.iconSize{
+	font-size: 3rem;
+}
+
+
+@media (max-width: 797px) {
+    body { 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+.duvidas-titulo{
+    background-color: #1b38bb;
+    font-size: 5rem;
+}
+
+.texto-home {
+	font-size: 3rem;
+}
+
+.texto-controle-de-pragas{
+	font-size: 3rem;
+	font-weight: bold;
+	color: #182777;
+}
+
+.backgroundSlogan{
+	background-color: #2F85EA;
+	padding-top: 50px;
+}
+
+
+
+.rectangle-1 {
+	width: 200px;
+	height: 200px;
+	left: 103px;
+	top: 1010px;
+
+	background-image: url("barata.jpg");
+	border-radius: 92px;
+}
+
+.rectangle-2 {
+	width: 200px;
+	height: 200px;
+	left: 548px;
+	top: 1010px;
+
+	background-image: url("cupim.jpg");
+	border-radius: 92px;
+}
+
+.rectangle-3 {
+	width: 200px;
+	height: 200px;
+	left: 993px;
+	top: 1010px;
+
+	background-image: url("mosquito.jpg");
+	border-radius: 92px;
+}
