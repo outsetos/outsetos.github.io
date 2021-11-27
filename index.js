@@ -186,7 +186,7 @@ app.delete('/apagarProduto/:id', async function(req, res){
     }
 })
 
-const PORT = process.env.PORT || 8089
+const PORT = 3000
 
 app.listen(PORT, function(){ 
     console.log("Servidor ON localhost:3000");
